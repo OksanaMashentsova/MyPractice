@@ -1,0 +1,138 @@
+{
+  "id": "24a78e9a-f8cd-4476-863a-ece4f5cae1e6",
+  "version": "2.0",
+  "name": "Training3",
+  "url": "https://www.udemy.com/",
+  "tests": [{
+    "id": "cf026b0e-a292-45cb-808f-764e984b3b7d",
+    "name": "udemy.com",
+    "commands": [{
+      "id": "df24def0-335c-421e-bd4e-1b5c23d3ed55",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.udemy.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fed256ee-07ed-4e33-aa12-3f45ce64b257",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a04b302a-210c-4ebe-808c-c30291ea057d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body[@id='udemy']/div/div/div[3]/div[2]/form/input[2]",
+      "targets": [
+        ["id=u262-search-form-autocomplete--3", "id"],
+        ["css=#u262-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u262-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4357a93c-e4be-43ea-a1f7-8d8753a881a1",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//body[@id='udemy']/div/div/div[3]/div[2]/form/input[2]",
+      "targets": [
+        ["id=u262-search-form-autocomplete--3", "id"],
+        ["css=#u262-search-form-autocomplete--3", "css:finder"],
+        ["xpath=//input[@id='u262-search-form-autocomplete--3']", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div/div[3]/div[2]/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "Тестирование ПО с Нуля до Первой Работы + Практика"
+    }, {
+      "id": "a988f860-9f21-41cc-8901-6ab0d834387d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ud-search-form-autocomplete:nth-child(4) use",
+      "targets": [
+        ["css=.ud-search-form-autocomplete:nth-child(4) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8acdaf08-fe02-419f-8bc3-004a81a35ad4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/course/quality-assurance-popeliuha/')]",
+      "targets": [
+        ["css=#u179-popper-trigger--137 a", "css:finder"],
+        ["xpath=//div[@id='u179-popper-trigger--137']/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/course/quality-assurance-popeliuha/')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a90e326c-b005-45ee-aece-541e797c3d84",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Add to cart')]",
+      "targets": [
+        ["css=.sidebar-container--purchase-section--2DONZ .buy-box--buy-box-item--2RETv:nth-child(4) .ud-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e3e51d5-7cef-4818-8fb1-48b21d4278ed",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Go to cart')]",
+      "targets": [
+        ["css=.styles--go-to-cart--2K-KE > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div[13]/div/div[2]/div/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div[2]/div/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Go to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "498943af-0e29-4e51-afb9-aa511a3fb40f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Remove')]",
+      "targets": [
+        ["css=.ud-btn-xsmall:nth-child(1) > span", "css:finder"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div/div[3]/div/div/div/ul/div/div/div[6]/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcccf705-66fd-49cc-a6b9-b39e22f57b75",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body[@id='udemy']/div/div/div[2]/a/img",
+      "targets": [
+        ["css=.header--flex-middle--2QeVR > img", "css:finder"],
+        ["xpath=//img[@alt='Udemy']", "xpath:img"],
+        ["xpath=//body[@id='udemy']/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49cfc0bf-5359-4355-b28a-48bd54c4a4fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3d422001-ec96-4c6e-9a31-dc45a0d76b64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cf026b0e-a292-45cb-808f-764e984b3b7d"]
+  }],
+  "urls": ["https://www.udemy.com/"],
+  "plugins": []
+}

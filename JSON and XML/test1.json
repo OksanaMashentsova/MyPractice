@@ -1,0 +1,92 @@
+{
+  "people": {
+    "person1": {
+      "person_id": 123,
+      "person_name": "Taras Shevtchenko",
+      "city": "Moryntsi",
+      "address": {
+        "street": "Independence",
+        "house_number": 25,
+        "apartment_number": 51
+      },
+      "contact_information": {
+        "phone_number": [
+          {
+            "mobile": "(123)4567890"
+          },
+          {
+            "work": "(044)9995498"
+          }
+        ],
+        "email": "taraspoet@gmail.com",
+        "skype": "live:kobzar1814"
+      }
+    },
+    "person2": {
+      "person_id": 213,
+      "person_name": "Ivan Franko",
+      "city": "Lviv",
+      "address": {
+        "street": "Central",
+        "house_number": 356,
+        "apartment_number": 11
+      },
+      "contact_information": {
+        "phone_number": [
+          {
+            "mobile": "(077)0105469"
+          },
+          {
+            "work": "(065)9874561"
+          }
+        ],
+        "email": "stonemasonf@gmail.com",
+        "skype": "live:frankoivpoet78"
+      }
+    },
+    "person3": {
+      "person_id": 332,
+      "person_name": "Lesia Ukrainka",
+      "city": "Zvyagel",
+      "address": {
+        "street": "Victory",
+        "house_number": 129,
+        "apartment_number": 62
+      },
+      "contact_information": {
+        "phone_number": [
+          {
+            "mobile": "(099)5487890"
+          },
+          {
+            "work": "(044)1122456"
+          }
+        ],
+        "email": "mavkaforest@gmail.com",
+        "skype": "live:kosachlarisa1302"
+      }
+    },
+    "person4": {
+      "person_id": 112,
+      "person_name": "Ostap Vyshnya",
+      "city": "Poltava",
+      "address": {
+        "street": "Kyivska",
+        "house_number": 245,
+        "apartment_number": 9
+      },
+      "contact_information": {
+        "phone_number": [
+          {
+            "mobile": "(044)6549822"
+          },
+          {
+            "work": "(044)6688289"
+          }
+        ],
+        "email": "vyshnyasmiles1311@gmail.com",
+        "skype": "live:pavlogubenko89"
+      }
+    }
+  }
+}

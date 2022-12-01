@@ -1,0 +1,207 @@
+{
+  "id": "c7260c78-a295-40fd-8f48-7107340e9cb7",
+  "version": "2.0",
+  "name": "Test2",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "a75c0810-05d3-482d-a412-28d989cafaa8",
+    "name": "Rozetka",
+    "commands": [{
+      "id": "92e3bc0c-4f92-4d6c-a418-d649cb7b8b75",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4a7ada9-7c9e-4081-bf62-708b073f3981",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c0d88b4-1a66-4e24-acd3-3b6fb3451deb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1e76829-00a2-422e-8e77-c523bb1c69fd",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "настільні ігри"
+    }, {
+      "id": "4e869ca3-ed8b-4fc6-b1d2-aaa55119d84b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Знайти')]",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddd8420-3eb9-4e18-9cc2-31c29a227321",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Ігровий набір 3в1 Нарди, Шахи, Шашки (29х29 см) B3015')]",
+      "targets": [
+        ["linkText=Ігровий набір 3в1 Нарди, Шахи, Шашки (29х29 см) B3015", "linkText"],
+        ["css=.simple-slider__item:nth-child(2) .lite-tile__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Ігровий набір 3в1 Нарди, Шахи, Шашки (29х29 см) B3015')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/332488876/p332488876/?advToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njk3MTQ0ODQsInBheWxvYWQiOiJ7XCJwZ1wiOjI4MjY5NDUsXCJjXCI6Mjg2MDYsXCJjcGNcIjowLjR9In0.EBCSvxGVO46sFGC52d3b61GAAJRcoIbRyyiUKF86fnQ&advSource=search')])[2]", "xpath:href"],
+        ["xpath=//li[2]/li/app-goods-tile-lite/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ігровий набір 3в1 Нарди, Шахи, Шашки (29х29 см) B3015')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "652dae3b-f97c-4a2f-b687-e18bbbcf0a82",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Купити')]",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/ul/li/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18be1910-afb4-49e8-9a44-6d7debb0069d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[74]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0682ad72-b4f6-4daa-aaa6-c9951e4118a0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "164aa726-5bef-4c7a-92ab-30eee815679b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d985f585-7063-4da0-b11e-7cdaf6fefcb3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Редагувати')]",
+      "targets": [
+        ["linkText=Редагувати", "linkText"],
+        ["name=edit", "name"],
+        ["css=.button--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Редагувати')]", "xpath:link"],
+        ["xpath=//a[@name='edit']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'my.rozetka.com.ua/cart')]", "xpath:href"],
+        ["xpath=//fieldset/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редагувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f4871ac-6328-41d8-8771-9cdef1b21e82",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,304)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb181b47-a2df-41ce-ab82-15a2e63c516a",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9879ba2a-8f6d-40e5-bdb5-57144c6248b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-actions__item--cart svg",
+      "targets": [
+        ["css=.header-actions__item--cart svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "43cda7c5-9f1f-43f7-b3ed-5d5e20817cc2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-actions__item--cart svg",
+      "targets": [
+        ["css=.header-actions__item--cart svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5229ce-4ef3-4989-9439-4e67ce91fc18",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Видалити все')]",
+      "targets": [
+        ["css=.button--link:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Видалити все')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04006992-5aa6-48fb-b08d-e510b5b26265",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[23]",
+      "targets": [
+        ["css=.button--gray", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//div/ul/li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e812be-2fba-470a-975d-11ae141ff093",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-actions__item--cart svg",
+      "targets": [
+        ["css=.header-actions__item--cart svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4d851558-5deb-4492-ae3a-94bc247d509f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a75c0810-05d3-482d-a412-28d989cafaa8"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}

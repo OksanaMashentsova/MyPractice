@@ -1,0 +1,148 @@
+{
+  "id": "984c8885-03dc-4058-8e7c-70c4cab3d7b3",
+  "version": "2.0",
+  "name": "Training2",
+  "url": "https://comfy.ua/ua/",
+  "tests": [{
+    "id": "d06cc19c-07df-40a7-8718-a52816875efb",
+    "name": "Comfy.ua",
+    "commands": [{
+      "id": "466d66d9-c648-47d3-8345-ba5267d82bba",
+      "comment": "",
+      "command": "open",
+      "target": "https://comfy.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "533d5e1e-0828-465d-bb6e-2edaa7d81a16",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "879c153f-f11a-4d89-a0dc-248d2d77d0ba",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='q-app']/div/div[3]/div/div/div[2]/form/input",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.header-search-form__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='q-app']/div/div[3]/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a98f308c-0b5d-4365-80b3-ce413f8912b2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='q-app']/div/div[3]/div/div/div[2]/form/input",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.header-search-form__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='q-app']/div/div[3]/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "навушники"
+    }, {
+      "id": "3a417150-f4fb-414b-b44a-d81df1e63dae",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input[@name='q']",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.header-search-form__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='q-app']/div/div[3]/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "65a66b29-f509-4954-8e47-48859b115b7f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Навушники вкладиші бездротові Apple AirPods with Charging Case (MV7N2RU/A/MV7N2TY/A)')])[2]",
+      "targets": [
+        ["css=#pr-1369245 .products-list-item__name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Навушники вкладиші бездротові Apple AirPods with Charging Case (MV7N2RU/A/MV7N2TY/A)')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pr-1369245']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://comfy.ua/ua/naushniki-vkladyshi-besprovodnye-apple-airpods-2018.html')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0751c0-4634-4790-91b1-f03e21e06f61",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Купити')]",
+      "targets": [
+        ["css=.buy-btn", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/main/div[3]/div/section[2]/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c61e6c-a754-4cf3-9b9f-a652c5483e19",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='q-app']/div/div[4]/div/div/div[3]/div[6]/div/span/span",
+      "targets": [
+        ["css=.header-bottom-cart__total-price > span", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div[4]/div/div/div[3]/div[6]/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d8a168-0bbe-4144-810b-3e788f430747",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='productQtyInput-683154413']",
+      "targets": [
+        ["id=productQtyInput-683154413", "id"],
+        ["name=cart[683154413][qty]", "name"],
+        ["css=#productQtyInput-683154413", "css:finder"],
+        ["xpath=//input[@id='productQtyInput-683154413']", "xpath:attributes"],
+        ["xpath=//div[@id='checkoutContent']/div/div/div/div[2]/ul/li/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b281ca5d-f7ce-4ba2-a3ce-87cc8a8cf823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ogg-counter__btn:nth-child(3)",
+      "targets": [
+        ["css=.ogg-counter__btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='checkoutContent']/div/div/div/div[2]/ul/li/div/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8ae7bb-2f8f-4d62-9958-3006d8d85bce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='checkoutContent']/div/div/div/div[2]/ul/li/div/div[2]/div[2]/div[3]/button",
+      "targets": [
+        ["css=.cart-item__remove > .button-remove", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='checkoutContent']/div/div/div/div[2]/ul/li/div/div[2]/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c0e7b312-f2e5-440b-97a7-0c65b67ee51a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d06cc19c-07df-40a7-8718-a52816875efb"]
+  }],
+  "urls": ["https://rabota.ua/ua", "https://comfy.ua/ua/"],
+  "plugins": []
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<people>
+		<person1>
+			<person_id>123</person_id>
+			<person_name>Taras Shevtchenko</person_name>
+			<city>Moryntsi</city>
+			<address>
+				<street>Independence</street>
+				<house_number>25</house_number>
+				<apartment_number>51</apartment_number>
+			</address>
+			<contact_information>
+				<phone_number>
+					<mobile>(123)4567890</mobile>
+				</phone_number>
+				<phone_number>
+					<work>(044)9995498</work>
+				</phone_number>
+				<email>taraspoet@gmail.com</email>
+				<skype>live:kobzar1814</skype>
+			</contact_information>
+		</person1>
+		<person2>
+			<person_id>213</person_id>
+			<person_name>Ivan Franko</person_name>
+			<city>Lviv</city>
+			<address>
+				<street>Central</street>
+				<house_number>356</house_number>
+				<apartment_number>11</apartment_number>
+			</address>
+			<contact_information>
+				<phone_number>
+					<mobile>(077)0105469</mobile>
+				</phone_number>
+				<phone_number>
+					<work>(065)9874561</work>
+				</phone_number>
+				<email>stonemasonf@gmail.com</email>
+				<skype>live:frankoivpoet78</skype>
+			</contact_information>
+		</person2>
+		<person3>
+			<person_id>332</person_id>
+			<person_name>Lesia Ukrainka</person_name>
+			<city>Zvyagel</city>
+			<address>
+				<street>Victory</street>
+				<house_number>129</house_number>
+				<apartment_number>62</apartment_number>
+			</address>
+			<contact_information>
+				<phone_number>
+					<mobile>(099)5487890</mobile>
+				</phone_number>
+				<phone_number>
+					<work>(044)1122456</work>
+				</phone_number>
+				<email>mavkaforest@gmail.com</email>
+				<skype>live:kosachlarisa1302</skype>
+			</contact_information>
+		</person3>
+		<person4>
+			<person_id>112</person_id>
+			<person_name>Ostap Vyshnya</person_name>
+			<city>Poltava</city>
+			<address>
+				<street>Kyivska</street>
+				<house_number>245</house_number>
+				<apartment_number>9</apartment_number>
+			</address>
+			<contact_information>
+				<phone_number>
+					<mobile>(044)6549822</mobile>
+				</phone_number>
+				<phone_number>
+					<work>(044)6688289</work>
+				</phone_number>
+				<email>vyshnyasmiles1311@gmail.com</email>
+				<skype>live:pavlogubenko89</skype>
+			</contact_information>
+		</person4>
+	</people>
+</root>
